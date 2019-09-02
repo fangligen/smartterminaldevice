@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#F4F4F4</color>
+  <color name="colorPrimaryDark">#F4F4F4</color>
+  <color name="colorAccent">#F4F4F4</color>
+  <color name="main_back_color">#F4F4F4</color>
+  <color name="white">#FFFFFF</color>
+
+  <color name="main_black">#262928</color>
+  <color name="tab_background">#F0FFF8</color>
+  <color name="tab_selected">#11E35B</color>
+  <color name="tab_selected_text_color">#3177EE</color>
+  <color name="tab_unselected_text_color">#383848</color>
+
+  <color name="colorBtnBlackSelected">#525353</color>
+  <color name="color_text_gray">#999999</color>
+  <color name="color_my_car_bg">#DCF2D9</color>
+  <color name="color_red">#ff0000</color>
+
+  <color name="color_text_strong">#1785C6</color>
+  <color name="color_card_bg">#19173C</color>
+  <color name="color_divider">#D0D9D3</color>
+  <color name="color_title_bar_bg">#1CBC9D</color>
+  <color name="color_title_bar_bg_percenage">#8C1CBC9D</color>
+</resources>

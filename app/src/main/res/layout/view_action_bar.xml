@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_56"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_title_bar_bg"
+    >
+
+  <ImageView
+      android:id="@+id/title_bar_back"
+      android:layout_width="@dimen/dp_48"
+      android:layout_height="@dimen/dp_48"
+      android:layout_centerVertical="true"
+      android:scaleType="centerInside"
+      android:src="@mipmap/navigation_back"
+      />
+  <TextView
+      android:id="@+id/title_bar_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:text="@string/app_name"
+      android:textColor="@color/white"
+      android:textSize="@dimen/sp_20"
+      />
+  <de.hdodenhof.circleimageview.CircleImageView
+      android:id="@+id/title_bar_avatar"
+      android:layout_width="@dimen/dp_48"
+      android:layout_height="@dimen/dp_48"
+      android:src="@mipmap/avatar"
+      android:layout_centerVertical="true"
+      android:layout_alignParentRight="true"
+      android:scaleType="centerCrop"
+      android:layout_marginRight="@dimen/dp_16"
+      app:civ_border_color="@color/white"
+      app:civ_border_width="@dimen/dp_1"
+      />
+</RelativeLayout>

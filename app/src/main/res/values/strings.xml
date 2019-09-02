@@ -1,0 +1,47 @@
+<resources>
+  <string name="app_name">CloudBox</string>
+  <!-- Strings related to login -->
+  <string name="prompt_email">Email</string>
+  <string name="prompt_password">Password</string>
+  <string name="action_sign_in">Sign in or register</string>
+  <string name="action_sign_in_short">Sign in</string>
+  <string name="welcome">"Welcome !"</string>
+  <string name="invalid_username">Not a valid username</string>
+  <string name="invalid_password">Password must be >5 characters</string>
+  <string name="login_failed">"Login failed"</string>
+  <string name="str_login_phone">请输入手机号</string>
+  <string name="str_login_passworld">请输入验证码</string>
+  <string name="str_login_btn">登录</string>
+  <string name="str_verify_code">请输入验证码</string>
+  <string name="str_get_verify_code">获取验证码</string>
+  <string name="str_bind_car">绑定车机</string>
+  <string name="str_unbind_car">解绑车机</string>
+  <string name="str_car_basic_info">请填写基本信息</string>
+  <string name="str_bind_input_device">请输入车机设备号</string>
+  <string name="str_bind_car_num">请输入车牌号</string>
+  <string name="str_next">下一步</string>
+  <string name="str_bind_waiting">车机正在升级中···</string>
+  <string name="str_bind_waiting_hint">大约需要5分钟，请耐心等待</string>
+  <string name="str_basic_info">基本信息</string>
+  <string name="str_install_list">安装记录</string>
+  <string name="str_log_out">退出登录</string>
+  <array name="car_status_table_title_array">
+    <item>车架号</item>
+    <item>车锁状态</item>
+    <item>左前门</item>
+    <item>右前门</item>
+    <item>左后门</item>
+    <item>右后门</item>
+    <item>后备箱</item>
+    <item>手刹/电子手刹状态</item>
+    <item>脚刹状态</item>
+    <item>电源状态</item>
+    <item>剩余油量</item>
+    <item>剩余电量</item>
+    <item>续航里程</item>
+    <item>车辆充电状态</item>
+    <item>总里程</item>
+    <item>车灯状态</item>
+    <item>蓄电池电</item>
+  </array>
+</resources>

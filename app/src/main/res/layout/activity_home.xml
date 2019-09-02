@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_action_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <com.stx.xhb.xbanner.XBanner
+            android:id="@+id/activity_home_banner"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="@dimen/dp_48"
+            app:AutoPlayTime="3000"
+            app:isShowIndicatorOnlyOne="true"
+            app:isShowNumberIndicator="true"
+            app:pageChangeDuration="800"
+            app:pointsContainerBackground="#44aaaaaa"
+            app:pointsPosition="RIGHT"
+            app:tipTextSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="70dp"
+            android:text="车机助手"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:layout_marginLeft="15dp"
+            android:text="快速适配，自动升级"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/activity_home_bind"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_80"
+        android:layout_margin="@dimen/dp_16"
+        android:background="@drawable/round_button_black"
+        android:text="@string/str_bind_car"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/activity_home_unbind"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_80"
+        android:layout_margin="@dimen/dp_16"
+        android:background="@drawable/round_button_black"
+        android:text="@string/str_unbind_car"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold" />
+</LinearLayout>
